@@ -5,13 +5,30 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+      // Used for the title template on pages other than the index site
+      siteTitle: `Nikhil`,
+      // Default title of the page
+      siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+      // Can be used for e.g. JSONLD
+      siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+      // Will be used to generate absolute URLs for og:image etc.
+      siteUrl: `https://minimal-blog.lekoarts.de`,
+      // Used for SEO
+      siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+      // Will be set on the <html /> tag
+      siteLanguage: `en`,
+      // Used for og:image and must be placed inside the `static` folder
+      siteImage: `/banner.jpg`,
+      // Twitter Handle
+      author: `@lekoarts_de`,
+    siteTitleAlt: `My Leg Health Track`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        title : "Nikhil",
         navigation: [
           {
             title: `Blog`,
@@ -24,12 +41,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `MAIL`,
+            url: `mailto:nikhilkuyya@gmail.com`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/nikhil-kuyya/`,
           },
         ],
       },
