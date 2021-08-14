@@ -6,15 +6,15 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 module.exports = {
   siteMetadata: {
       // Used for the title template on pages other than the index site
-      siteTitle: `Nikhil`,
+      siteTitle: `Leg Operation Status`,
       // Default title of the page
-      siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+      siteTitleAlt: `Operation Status`,
       // Can be used for e.g. JSONLD
-      siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+      siteHeadline: `Add Status and Track the Recovery`,
       // Will be used to generate absolute URLs for og:image etc.
-      siteUrl: `https://minimal-blog.lekoarts.de`,
+      siteUrl: `https://legimprovement.gatsbyjs.io/`,
       // Used for SEO
-      siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+      siteDescription: `My Healing Status to share a platform to help others in recovery for Leg Operation Recovery`,
       // Will be set on the <html /> tag
       siteLanguage: `en`,
       // Used for og:image and must be placed inside the `static` folder
@@ -28,11 +28,11 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        title : "Nikhil",
+        title : "Leg Recovery Status",
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Status`,
+            slug: `/status`,
           },
           {
             title: `About`,
