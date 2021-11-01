@@ -20,7 +20,7 @@ module.exports = {
       // Used for og:image and must be placed inside the `static` folder
       siteImage: `/banner.jpg`,
       // Twitter Handle
-      author: `@lekoarts_de`,
+      author: `@nikhilkuyya`,
     siteTitleAlt: `My Leg Health Track`,
   },
   plugins: [
