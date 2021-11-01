@@ -45,12 +45,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `MAIL`,
+            name: `Mail Me`,
             url: `mailto:nikhilkuyya@gmail.com`,
           },
           {
-            name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/nikhil-kuyya/`,
+            name: `Tweet Me`,
+            url: `https://twitter.com/NikhilKuyya`,
           },
         ],
       },
